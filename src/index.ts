@@ -5,7 +5,7 @@ let intento: number = 3;
 do {
   let ingreseClave: string = prompt(" ingrese clave");
   if (ingreseClave === claveUsuario) {
-    alert(" Su clave es correcta.   Bienvenidx !");
+    alert("clave correcta");
     veces = 3;
   } else {
     alert(
